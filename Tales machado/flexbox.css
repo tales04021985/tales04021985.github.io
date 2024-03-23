@@ -1,0 +1,50 @@
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pai{
+    border: 5px solid black;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#filho1{
+    
+}
+#filho2{
+    
+}
+#filho3{
+   
+}
+    
+#filho4{
+   
+}
+.pai > div{
+    background-color: rgb(217, 255, 0);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    color: black;
+    font-family: Arial;
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    transition: 0.3s;
+}
+.pai > div:hover{
+    flex-grow: 3;
+    height: 80px;
+
+}

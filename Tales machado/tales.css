@@ -1,0 +1,32 @@
+p{
+
+    color:rgb(255, 255, 255);
+    background-color:darkolivegreen ;
+    font-size: 30px;
+    font-family: comic sans MS;
+
+}
+
+body{
+
+    background-color: darkolivegreen;
+}
+
+img{
+    height:240px ;
+    border: 10px  solid rgb(13, 156, 13);
+    border-radius: 40px ;
+    width: 400px;
+}
+
+img:hover{
+    border: 10px outset darkgreen;
+    border-radius: 40px;
+    transition: 1.0s;
+}
+h1{
+
+ font-family: comic sans MS;
+ color: rgb(0, 0, 0);
+
+}
