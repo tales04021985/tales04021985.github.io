@@ -1,0 +1,79 @@
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgb(240, 240, 240);
+   
+   }
+   
+   .inicio{
+       background-color: aqua;
+       display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 30px;
+      gap: 90px;
+   }
+   .conteudo > img{
+    height: 300px;
+    width: 500px;
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+   }
+
+   .conteudo{
+    background-color: aqua;
+    padding: 30px;
+    border-radius: 20px;
+
+   }
+
+   div > a{
+       color: black;
+       text-decoration: none;
+       text-align: center;
+       display: flex;
+       flex-direction: column;
+       background-color: white;
+       border-radius: 30px;
+       width: 100px;
+       height: 45px; 
+       border: solid 3px;
+   
+   }
+   div > input{
+       height: 40px;
+       width: 500px;
+       border-radius: 30px;
+       border: solid 3px;
+   
+   }
+   div > a:hover{
+       width: 120;
+       transition: 0.5ms;
+       height: 42;
+   
+   }
+   .contato{
+     display: flex;
+     background-color: aqua;
+     border-radius: 20px;
+     justify-content: center;
+
+   }
+   
+   .login{
+    background-color: aqua;
+    height: 150px;
+    border-radius: 20px;
+  }
+  .contato > img{
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+   
