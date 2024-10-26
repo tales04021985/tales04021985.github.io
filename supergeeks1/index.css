@@ -2,71 +2,122 @@ body{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    background-color: rgb(240, 240, 240);
+    background-image: url("icon9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100dvh;
    
    }
    
    .inicio{
-       background-color: aqua;
-       display: flex;
+      background-color: transparent;
+      display: flex;
       justify-content: center;
-      align-items: center;
-      border-radius: 30px;
-      gap: 90px;
+      gap:60px;
+      padding: 10px;
+      border-radius: 20px;
+      color: black;
+      
+      
+      
+      ;
+      
    }
+   
    .conteudo > img{
-    height: 300px;
-    width: 500px;
+    height: 900px;
+    width: 200px;
     display: flex;
-    border-radius: 20px;
-    flex-direction: column;
+    justify-content: center;
+   
    }
 
    .conteudo{
-    background-color: aqua;
+    color: aliceblue;
     padding: 30px;
     border-radius: 20px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
 
    }
 
-   div > a{
-       color: black;
+   .inicio > a{
+       
        text-decoration: none;
        text-align: center;
        display: flex;
        flex-direction: column;
-       background-color: white;
        border-radius: 30px;
        width: 100px;
        height: 45px; 
-       border: solid 3px;
+       color: rgb(255, 255, 255);
+       border:white solid 3px;
+      
+       
+      
+
    
    }
    div > input{
+       color: black;
        height: 40px;
        width: 500px;
        border-radius: 30px;
-       border: solid 3px;
+       border: none;
+       border: solid 2px darkgray;
+       
+       
    
    }
-   div > a:hover{
-       width: 120;
-       transition: 0.5ms;
-       height: 42;
+ 
    
-   }
    .contato{
+    color: white;
      display: flex;
-     background-color: aqua;
      border-radius: 20px;
      justify-content: center;
+     
+    flex-direction: column;
+    text-align: center;
+
 
    }
    
-   .login{
-    background-color: aqua;
-    height: 150px;
+   .pai{
     border-radius: 20px;
+    gap: 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    color: aliceblue;
+    width: 500px;
+    height: 400px;
+    border: white solid 3px;
+
+  }
+
+  .pai > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .pai > div > a{
+
+  }
+
+
+  main{
+    
+    display: flex;
+    justify-content: center;
+    padding: 150px 0;
+
   }
   .contato > img{
     display: flex;
@@ -75,5 +126,34 @@ body{
     justify-content: center;
     align-items: center;
   }
+  button {
+    color: black;
+    background-color: whitesmoke;
+    display: flex;
+    height: 40px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    
+  }
+  .sobre{
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .valor > button{
+    width: 70%;
+    background-color: aliceblue;
+    color: black;
+    height: 60px;
+  }
+  .valor{
+    
+    display: flex;
+    justify-content: center;
+  }
+
 
    
