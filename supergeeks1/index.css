@@ -239,10 +239,12 @@ body{
 
   .inicio > a{
     display: none;
+    
   }
 
   #dropdown{
     display: flex;
+    
   }
   
 } 
