@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(40, 40, 40);
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    gap: 20px;
+}
+
+article{
+    background-color: rgb(37, 105, 174);
+    border-radius: 20px;
+    padding: 20px;
+    color: rgb(183, 198, 214);
+    font-family: 'Arial';
+}
+
+article > h1{
+    margin: 0;
+    font-size: 20px;
+}
+
+.exercicio{
+    background-color: white;
+    color: black;
+    padding: 20px;
+    font-family: 'Times New Roman';
+    transition: 0.2s;
+}
+
+.exercicio:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
