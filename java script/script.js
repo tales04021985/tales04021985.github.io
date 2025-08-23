@@ -115,6 +115,58 @@ function mostrarpessoas(){
     }
 }
 
+lista = []
+function ex9(){
+    numero = parseInt(document.getElementById('ex9-numero').value)
+    document.getElementById('ex9-numero').value = ''
+    lista.push(numero)
+
+    quantidade = lista.length
+    maior = Math.max(...lista)
+    menor = Math.min(...lista)
+    soma = lista.reduce((a,b) => a+b,0)
+    media = soma / quantidade
+
+    document.getElementById('ex9-saida').innerHTML =
+    '<b>'+lista.join(' ')+'</b>'+
+    '<hr>Quantidade: '+quantidade+
+    '<br>Maior: '+maior+
+    '<br>Menor: '+menor+
+    '<br>Soma: '+soma+
+    '<br>Média: '+media.toFixed(2)
+}
+function ex10(){
+    texto = document.getElementById('ex10-texto').value
+
+    caracteres = texto.length
+    palavras = texto.split(' ')
+    primeiro = texto[0]
+    ultimo = texto[texto.length-1]
+    vogais = texto.match(/[aeiouáéíóúàèìòùãõâêîôû]/gi)
+    
+
+    document.getElementById('ex10-saida').innerHTML =
+    '<b>'+texto+'</b>'+
+    '<hr>Quantidade de caracteres: '+caracteres+
+    '<br>Quantidade de palavras: '+palavras.length+
+    '<br>Primeiro caractere: '+primeiro+
+    '<br>Último caractere: '+ultimo+
+    '<br>Quantidade de vogais: '+vogais.length
+}
+function ex11(){
+
+    img = document.getElementById('ex11-imagem').value
+    document.getElementById('caixa2').style.backgroundImage = 'url('+img+')'
+
+
+}
+contador = 0
+function ex12(){
+    contador++
+    document.getElementById('ex12-saida').innerHTML = contador
+}
+setInterval(ex12,1000)
+
 
 
 

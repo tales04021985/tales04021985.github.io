@@ -43,4 +43,11 @@ label{
     background-color: rgb(173, 149, 7);
 
 }
-
+#caixa2{
+    border: 2px solid  black;
+    height: 100px;
+    width: 100px;
+    background-image: url('');
+    background-size: cover;
+    background-position: center;
+}
