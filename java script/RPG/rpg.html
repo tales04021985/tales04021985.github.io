@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="rpg.css">
+    <script src="rpg.js"></script>
+</head>
+<body>
+
+    
+
+    <div id="ficha">
+        
+        <h2>Monte a ficha RPG</h2>
+
+        Nome: <input id="nome" type="text" placeholder="Nome do personagem"><br>
+        Foto: <input id="foto" type="text" placeholder="Cole o endereço da imagem"><br>
+
+        <b>Você tem 8 pontos para gastar nos atributos:</b><br>
+    <div class="nom">
+        Força: <input id="for" type="number" min="0" max="8" value="0"><br>
+        Destreza: <input id="des" id="des" type="number" min="0" max="8" value="0"><br>
+        Constituição: <input id="con" type="number" min="0" max="8" value="0"><br>
+        Inteligência: <input id="int" type="number" min="0" max="8" value="0"><br>
+        Carisma: <input id="car" type="number" min="0" max="8" value="0"><br><br>
+    </div>
+
+        Arma:
+        <select name="" id="arma">
+            <option value="Desarmado">Desarmado✋</option>
+            <option value="Espada">Espada⚔️</option>
+            <option value="Arco">Arco🏹</option>
+            <option value="Bastão">Bastão🏏</option>
+        </select>
+
+        <br><br><button onclick="enviarficha()">Confirmar ficha</button>
+    </div>
+
+    <div id="fichapronta">
+
+        <div class="perfil">
+            <img id="foto2"  src="https://th.bing.com/th/id/OIP.4fb15wDjkhVm89DVfywnDwHaHa?w=163&h=180&c=7&r=0&o=5&pid=1.7" alt="">
+            <div>
+                <h2 id="nome2">nome do personagem</h3>
+                <h4 id="status">Nivel: 1 |vida: 10 | armadura: 10</h4>
+                <h4 id="arma2">arma: espada</h4>
+            </div>
+    </div>
+    <hr>
+    <div id="atri">
+        força: 0 |
+        destreza: 0 |
+        constituiçao: 0 |
+        inteligencia: 0 |
+        carisma: 0 |
+    </div>
+
+
+
+        
+
+    </div>
+
+    <hr>
+
+    <div id="rolagens">
+        
+        <button onclick="dado(6)">rolar D6</button>
+        <button onclick="dado(20)">rolar D20</button>
+        <button onclick="ataque(forc)">Atacar com força</button>
+        <button onclick="ataque(des)">Atacar com destreza</button>
+        <button onclick="ataque(arm)">Atacar com arma</button>
+        
+
+
+
+
+    </div>
+
+
+    
+
+
+</body>
+</html>

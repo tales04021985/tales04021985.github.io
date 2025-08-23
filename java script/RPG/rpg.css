@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('https://th.bing.com/th/id/R.ac351e904ab2127b2dfe83c689037f4f?rik=sxnhlmOl%2fIdI%2bg&pid=ImgRaw&r=0') ;
+    background-size: cover;
+    background-position: center;
+    font-size: 14px;
+}
+#ficha{
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.603);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+
+    > div {
+        border-radius: 20px;
+        background-color: rgba(255, 255, 255, 0);
+    }
+
+    > input {
+        background-color: rgb(233, 233, 233);
+        border-radius: 20px;
+        height: 25px;
+    }
+
+    > select {
+        border-radius: 20px;
+        height: 25px;
+    }
+    
+
+    
+}
+.nom > input{
+    background-color: rgba(255, 255, 255, 0.63);
+    border-radius: 20px;
+    height: 25px;
+}
+
+
+
+
+
+
+#fichapronta{
+    display: none;
+    background-color: rgba(240, 248, 255, 0.589);
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    
+    
+}
+
+#fichapronta img{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    
+}
+
+.perfil{
+    display: flex;
+    gap: 20px;
+}
+#rolagens{
+    border: 2px solid black;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.603);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+}
+#rolagens > button{
+    border-radius: 20px;
+    height: 25px;
+}

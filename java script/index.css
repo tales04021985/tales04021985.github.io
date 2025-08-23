@@ -1,0 +1,46 @@
+body{
+    background-color: rgba(0, 0, 0, 0.178);
+}
+label{
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    
+}
+
+.apr{
+    background-color: forestgreen;
+    border-radius: 20px;
+}
+.rec{
+    background-color: gold;
+    border-radius: 20px;
+}
+.rep{
+     background-color: red;
+     border-radius: 20px;
+}
+
+#t{
+    margin-top: 10px;
+    flex-wrap: wrap;
+    color: whitesmoke;
+    background-color: rgba(0, 47, 255, 0.63);
+    border: solid 3px black;
+    border-radius: 10px;
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+}
+
+#t > div{
+    background-color: rgba(0, 0, 0, 0.616);
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+}
+#t > #especial{
+
+    background-color: rgb(173, 149, 7);
+
+}
+
