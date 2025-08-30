@@ -165,7 +165,23 @@ function ex12(){
     contador++
     document.getElementById('ex12-saida').innerHTML = contador
 }
-setInterval(ex12,1000)
+//setInterval(ex12,1000)
+
+function ex13(){
+
+    d = new Date
+    semana = ['domingo','segunda','terça','quarta','quinta','sexta','sabado']
+
+    mes = ['Janeiro','Fevereiro','Março','Abril','Maio','Junho',
+    'Julho','Agosto','Setembro','Outubro','Novembro','dezembro']
+
+    document.getElementById('data').innerHTML=
+    'Hoje é '+semana[d.getDay()]+
+    ', Dia '+d.getUTCDate()+
+    ' de '+mes[d.getMonth()]+
+    ' de ' +d.getFullYear()+'.'
+
+}
 
 
 
