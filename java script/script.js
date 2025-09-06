@@ -184,6 +184,44 @@ function ex13(){
 }
 
 
+pessoas = []
+function ex14(){
+
+    // Coletando as informações
+    nome = document.getElementById('ex14-nome').value
+    idade = parseInt(document.getElementById('ex14-idade').value)
+    cidade = document.getElementById('ex14-cidade').value
+
+    // Construindo op objeto "pessoa"
+    p = {
+        nome: nome,
+        idade: idade,
+        cidade: cidade
+    }
+
+    // Adicionar a pessoa na lista de pessoas
+
+    pessoas.push(p)
+
+    // Mostrar todas as pessoas em uma tabela
+     document.getElementById('ex14-saida').innerHTML = 
+     '<tr>'+
+        '<yh>Nome</th>'+
+        '<yh>Idade</th>'+
+        '<yh>Cidade</th>'
+    '</tr>'
+    for(i=0; i<pessoas.length; i++){
+        document.getElementById('ex14-saida').innerHTML +=
+        '<tr>'+
+            '<td>'+pessoas[i].nome+'</td>'+
+            '<td>'+pessoas[i].idade+'</td>'+
+            '<td>'+pessoas[i].cidade+'</td>'+
+        '</tr>'
+    }
+
+}
+
+
 
 
 

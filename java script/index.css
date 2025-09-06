@@ -51,3 +51,16 @@ label{
     background-size: cover;
     background-position: center;
 }
+.tabela{
+    background-color: grey;
+}
+.tabela td{
+    background-color: white;
+    padding: 3px;
+}
+
+.tabela th{
+    background-color: rgb(105, 102, 98);
+    color: white;
+    padding: 3px;
+}
