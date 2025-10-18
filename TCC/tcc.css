@@ -1,0 +1,48 @@
+body{
+    background-color: grey;
+
+}
+
+.produto > input{
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    height: 40px;
+    width: 400px;
+    background-color: rgb(247, 247, 247);
+}
+.produto > button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+    background-color: rgb(211, 211, 211);
+}
+
+
+#cadastro > input{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    
+    height: 40px;
+    width: 400px;
+}
+
+#cadastro > button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    
+    height: 40px;
+    width: 100px;
+
+}
+
+.estilo{
+  background-color: brown;
+
+}
