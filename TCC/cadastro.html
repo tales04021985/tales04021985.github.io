@@ -1,43 +1,41 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CadFunc</title>
     <link rel="stylesheet" href="tcc.css">
-    <script src="tcc.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <script src="tcc.js"></script>
 </head>
 <body>
 
-<div class="estilo">
-
-
-     <div id="cadastro"></div>
-
-        <a href="index.html" class="fa fa-home">Inicio</a>
-
-        <h1>Cadastrar funcionario</h1>
-        <h2>Preencha as informações abaixo</h2>
-
-        Nome: <input id="nome" type="text" placeholder="Nome"><br>
-        Idade: <input id="idade" type="text" placeholder="Idade"><br>
-        Genero: <input id="sexo" type="text" placeholder="Genero"><br>
-
-
-        <button onclick="finalizar()">finalizar</button>
-
-
+    <div class="titulo">
+        <h1>
+            CadFunc
+        </h1>
     </div>
     
 
-</div>    
+    
 
+    <div class="estilo">
 
+    <a href="index.html" class="fa fa-home"></a>
 
+    <h1>Cadastrar Funcionário</h1>
+    <h2>Preencha as informações abaixo</h2>
 
+    Nome : <input id="nome" type="text"><br>
+    Idade: <input id="idade" type="number"><br>
+    Gênero: <input id="genero" type="text"><br>
 
+    <button onclick="cadastrar()">Finalizar</button>
+
+    </div>
 
 </body>
 </html>

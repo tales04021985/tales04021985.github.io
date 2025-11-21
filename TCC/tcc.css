@@ -3,46 +3,125 @@ body{
 
 }
 
-.produto > input{
+.produto{
     display: flex;
-    justify-content: center;
     border-radius: 20px;
-    height: 40px;
-    width: 400px;
-    background-color: rgb(247, 247, 247);
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(219, 214, 214, 0.363);
+    height: 60px;
 }
+
 .produto > button{
     display: flex;
-    justify-content: center;
     align-items: center;
+    text-align: center;
+    justify-content: center;
     border-radius: 20px;
-    height: 40px;
-    width: 100px;
-    background-color: rgb(211, 211, 211);
+    height: 50px;
+    width: 60px;
 }
 
-
-#cadastro > input{
+.produto > input{
     display: flex;
-    flex-direction: column;
     border-radius: 20px;
-    
+    height: 50px;
+    width: 400px;
+}
+
+.produto > a{
+    color: black;
+    text-decoration: none;
+    flex-direction: column;
+    padding: 4;
+    display: flex;
+    height: 50px;
+    width: 60px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
+ 
+
+
+.estilo > input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin: auto;
     height: 40px;
     width: 400px;
 }
 
-#cadastro > button{
+.estilo > button{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     border-radius: 20px;
+    margin: auto;
     
     height: 40px;
     width: 100px;
-
 }
 
 .estilo{
-  background-color: brown;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0.397);
+    border-radius: 20px;
+    padding: 10px;
 
+}
+.estilo > a {
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    height: 50px;
+    justify-content: center;
+    width: 100px;
+    margin: auto;
+    text-decoration: none;
+    color: black;
+    border-radius: 20px;
+    padding: 6px 6px;
+}
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background-color: rgba(58, 58, 58, 0.514);
+}
+
+th {
+    height: 60px;
+    width: 200px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    background-color: rgba(218, 215, 215, 0.651);
+}
+
+td {
+    height: 60px;
+    width: 200px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius:20px;
+    text-align: center;
+    background-color: rgba(218, 212, 212, 0.651);
+}
+
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    color: white;
+    padding: 10px 10px;
+    height: 50px;
+    
 }
